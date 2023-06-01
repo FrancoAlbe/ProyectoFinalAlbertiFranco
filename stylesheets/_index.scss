@@ -1,0 +1,112 @@
+.descripcion{
+    display: flex;
+    align-content: center;
+}
+
+.descripcion h1{
+    position:relative;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.456);
+    border: 3px solid rgb(74, 207, 255);
+    font-size: 25px;
+}
+
+.descripcion h2{
+    text-align: center;
+    background-color:rgba(0, 255, 255, 0.456);
+    font-size: 25px;
+}
+
+
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.video-background {
+    object-fit: cover;
+    object-position: center top;
+    width: 100%;
+    margin: 4px;
+    height: auto;
+    padding: 4px;
+    outline: 1px solid $background-oscuro;
+}
+
+.contacto-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: $dorado;
+    font-size: 2rem;
+    padding: .5rem;
+    outline: 2px solid $amarillo-claro;
+    border-radius: 10%;
+
+    &:hover {
+        transition: background-color .25s linear;
+        background-color: $azul-claro;
+        color: $amarillo-claro;
+        text-decoration: none;
+    }
+}
+
+.lineas-container {
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); // este codigo hace que sea responsive.
+    //auto-fill ajusta automaticamente la cantidad de elementos en la linea
+    //minmax es una funcion que le asigna al elemento como valor minimo 15rem en este caso 
+    //y como maximo que ocupe todo el espacio libre
+    gap: 1rem;
+}
+// estilos a los elementos del grid, aplica a todos los carriles
+.linea {
+    background: linear-gradient(181deg, $amarillo-claro, $dorado);
+    justify-self: center;
+    background-size: 400% 400%;
+    outline: 1px solid $azul-claro; // outline unicamente para poder ver la caja
+}
+
+.linea a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: $azul-claro;
+    }
+}
+
+.img-container  {
+    width: 100%;
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.img-container h3 {
+    position: absolute;
+    color: $texto-blanco;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.linea h3 {
+    position: absolute;
+}
+
+.linea p {
+    margin-left: 4px;
+}

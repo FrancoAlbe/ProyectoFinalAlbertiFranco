@@ -1,0 +1,13 @@
+footer {
+    background-color: rgba(5, 205, 212, 0.61);
+    position: fixed;
+    bottom: 0; 
+    max-height: 40px;
+    border: 2px solid black; 
+}
+footer h2 {
+    margin: 0;
+    text-align: center;
+    color: $info-text;
+    font-size: 20px;
+}

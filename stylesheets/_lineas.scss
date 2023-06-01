@@ -1,0 +1,27 @@
+.skins-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+}
+
+.skins-container img {
+    width: 100%;
+}
+
+.skin-layout {
+    font-weight: bold;
+    background-color: #5466b4c0;
+    position: relative;
+}
+
+@media only screen and (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+
+main img{
+    border: 2.5px solid #54c6ce;
+    animation: aparecer 1.2s forwards linear;
+    opacity: 0;
+}
