@@ -79,15 +79,17 @@ footer h2 {
 .descripcion h1 {
   position: relative;
   text-align: center;
-  background-color: rgba(0, 255, 255, 0.456);
+  background-color: rgba(0, 255, 255, 0.548);
   border: 3px solid rgb(74, 207, 255);
   font-size: 25px;
+  border-radius: 20px;
 }
 
 .descripcion h2 {
   text-align: center;
-  background-color: rgba(0, 255, 255, 0.456);
+  background-color: rgba(0, 255, 255, 0.582);
   font-size: 25px;
+  border-radius: 7px;
 }
 
 .video-container {
@@ -138,9 +140,9 @@ footer h2 {
 
 .linea {
   background: linear-gradient(181deg, #eddc91, #c4a15b);
+  border-radius: 10px;
   justify-self: center;
   background-size: 400% 400%;
-  outline: 1px solid #548CB4;
 }
 
 .linea a {
@@ -152,6 +154,7 @@ footer h2 {
 }
 
 .img-container {
+  border-radius: 10px;
   width: 100%;
   position: relative;
 }
@@ -209,16 +212,18 @@ footer h2 {
   position: relative;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
-  background-color: rgba(0, 255, 255, 0.456);
+  background-color: rgba(0, 255, 255, 0.596);
   border: 3px solid rgb(74, 207, 255);
   font-size: 23px;
+  border-radius: 20px;
 }
 
 .descriplinea h3 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgba(0, 255, 255, 0.456);
+  background-color: rgba(0, 255, 255, 0.589);
   font-size: 25px;
+  border-radius: 7px;
 }
 
 .skins-container img {
@@ -231,6 +236,7 @@ footer h2 {
   position: relative;
   text-align: center;
   font-size: 15px;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -239,7 +245,63 @@ footer h2 {
   }
 }
 main img {
+  border-radius: 10px;
   border: 2.5px solid #54c6ce;
   animation: aparecer 1.2s forwards linear;
   opacity: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+section h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgba(90, 173, 228, 0.5490196078);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(3, 135, 145, 0.8274509804);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario h2 {
+  color: #333333;
+  background-color: rgba(83, 224, 243, 0.432);
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=url] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  background-color: #419edb;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input[type=submit]:hover {
+  background-color: #45a049;
 }/*# sourceMappingURL=estilos.css.map */

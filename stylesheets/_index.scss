@@ -6,15 +6,17 @@
 .descripcion h1{
     position:relative;
     text-align: center;
-    background-color: rgba(0, 255, 255, 0.456);
+    background-color: rgba(0, 255, 255, 0.548);
     border: 3px solid rgb(74, 207, 255);
     font-size: 25px;
+    border-radius: 20px;
 }
 
 .descripcion h2{
     text-align: center;
-    background-color:rgba(0, 255, 255, 0.456);
+    background-color:rgba(0, 255, 255, 0.582);
     font-size: 25px;
+    border-radius: 7px;
 }
 
 
@@ -71,9 +73,9 @@
 // estilos a los elementos del grid, aplica a todos los carriles
 .linea {
     background: linear-gradient(181deg, $amarillo-claro, $dorado);
+    border-radius: 10px;
     justify-self: center;
     background-size: 400% 400%;
-    outline: 1px solid $azul-claro; // outline unicamente para poder ver la caja
 }
 
 .linea a {
@@ -86,6 +88,7 @@
 }
 
 .img-container  {
+    border-radius: 10px;
     width: 100%;
     position: relative;
 }
